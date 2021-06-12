@@ -13,7 +13,7 @@ export default function Home() {
           "Preencha seu endereço e veja todos os profissionais da sua região"
         }
       />
-      <UserInformation />
+      <UserInformation name={"Arcangelo"} rating={3} description={"Brusque"} />
     </div>
   );
 }
